@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 lazy_static = "1.4.0"
 chrono = "0.4.30"
+profiler-macro = { git = "https://github.com/asakhar/profiler-macro.git" }
