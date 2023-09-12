@@ -2,6 +2,7 @@ use std::{fs::File, io::Write, sync::Mutex};
 
 use chrono::{DateTime, Local};
 use lazy_static::lazy_static;
+pub use profiler_macro::*;
 
 pub struct ProfileLogger {
   file: Mutex<File>,
